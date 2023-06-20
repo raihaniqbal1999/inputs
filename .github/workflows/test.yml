@@ -45,7 +45,7 @@ on:
         - deploy_lighthouse
         - destroy
        
-  env:
-   TERRAFORM_WORKSPACE_NAME: {inputs.Terraform_Workspace_Name}
-   TASK: {inputs.task}
+    env:
+      TERRAFORM_WORKSPACE_NAME: {inputs.Terraform_Workspace_Name}
+      TASK: {inputs.task}
 
