@@ -5,7 +5,7 @@ on:
       Terraform_Workspace_Name:
         description: Terraform Workspaces
         required: false
-        default: devsecops-test
+        #default: devsecops-test
         type: choice
         options:
         - devsecops-test
@@ -38,7 +38,7 @@ on:
       task:
         description: Task to be done 
         required: false
-        default: deploy
+        #default: deploy
         type: choice
         options:
         - deploy
